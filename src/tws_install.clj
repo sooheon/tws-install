@@ -43,7 +43,7 @@
                        (if (symbol? ret) % ret))
                      (catch Exception _ %))
             args))
-        tws-version "979.01"
+        tws-version "1015.02"
         dl-url      (format
                       "http://interactivebrokers.github.io/downloads/twsapi_macunix.%s.zip"
                       tws-version)
